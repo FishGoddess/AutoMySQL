@@ -1,0 +1,10 @@
+<component name="ArtifactManager">
+  <artifact name="AutoMySQL:jar">
+    <output-path>$PROJECT_DIR$/out/artifacts/AutoMySQL_jar</output-path>
+    <root id="root">
+      <element id="archive" name="AutoMySQL.jar">
+        <element id="module-output" name="AutoMySQL" />
+      </element>
+    </root>
+  </artifact>
+</component>
