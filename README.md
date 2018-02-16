@@ -2,7 +2,7 @@
 MySql增删改查语句自动生成器 v1.0（MySQL code automatical generator v1.0）
 
 ***************************************************************************************************************
-// 使用范例：
+// 使用范例：                                                                                                      
 import core.MySQL;
 
 public class TestUtil
