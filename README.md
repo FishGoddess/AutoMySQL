@@ -65,22 +65,22 @@
     }
 ***************************************************************************************************************
 ### 使用步骤：<br/>
-    1. 在实体类上添加 Table 注解，值为数据表的名字                                                                      
-    2. 在字段上添加 Column 注解，值为对应的数据表列                                                                     
-    3. 给实体类添加 getter 和 setter（一个标准的 javabean 类）                                                        
-    4. 执行相应的增删改查方法                                                                                 
+    1. 在实体类上添加 Table 注解，值为数据表的名字
+    2. 在字段上添加 Column 注解，值为对应的数据表列
+    3. 给实体类添加 getter 和 setter（一个标准的 javabean 类）
+    4. 执行相应的增删改查方法
 
-    程序实例：                                                                                                      
-    Book.java                                                                                                   
-    TestUtil.java                                                                                                  
+    程序实例：
+    Book.java
+    TestUtil.java
 ***************************************************************************************************************
 ### using steps：<br/>
-    1. add @Table on class declaration, the value is table name                                                           
-    2. add @Column on field, the value is one column of table                                                        
-    3. add getter and setter(a javabean class)                                                                         
-    4. do something                                                                                               
+    1. add @Table on class declaration, the value is table name
+    2. add @Column on field, the value is one column of table
+    3. add getter and setter(a javabean class)
+    4. do something
 
-    examples：                                                                                                         
-    Book.java                                                                                                           
-    TestUtil.java                                                                                                      
+    examples：
+    Book.java
+    TestUtil.java
 ***************************************************************************************************************
