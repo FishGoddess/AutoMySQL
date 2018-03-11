@@ -32,6 +32,7 @@
 
 we prepare a new ORM function named getBeanByMap, and it is mainly used by EasyMySQL. You got a list of map from database, then you could change them into an object easily if you want.<br/>
 
+!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!! update !!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!<br/>
 
 ### 使用步骤：<br/>
     1. 在实体类上添加 Table 注解，值为数据表的名字
