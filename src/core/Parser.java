@@ -7,6 +7,8 @@ import annotations.Table;
 import java.lang.reflect.Field;
 import java.lang.reflect.InvocationTargetException;
 import java.lang.reflect.Method;
+import java.util.Map;
+import java.util.Set;
 
 /**
  * 使用反射从一个实体类中读取注解
@@ -27,6 +29,14 @@ final class Parser
     private static String getter(String attribute)
     {
         return "get" + attribute.substring(0, 1).toUpperCase() + attribute.substring(1);
+    }
+
+    // change the first letter to upper
+    // such as, attribute = "name", you will get a return like "setName"
+    // it returns the name of setter
+    private static String setter(String attribute)
+    {
+        return "set" + attribute.substring(0, 1).toUpperCase() + attribute.substring(1);
     }
 
     /**
@@ -84,5 +94,69 @@ final class Parser
         }
 
         return null;
+    }
+
+    /**
+     * 从 dataMap 中读取数据，并封装为指定对象返回
+     * read dataMap and return an instance of this data
+     *
+     * @param dataMap 要被读取的 Map，包含表列名和数据，它会根据 key 值来调用相应的 setter 方法
+     *                it contains column and data, and invoke data's setter using key
+     * @param returnType 返回类型，如果是 Book 类对象，就传入 Book.class，
+     *                   因此，你不需要进行类型转换，内部已经转换好了
+     *                   return your data object, if it is Book class, then give it Book.class,
+     *                   therefore, you don't need to cast it
+     *
+     * @return 返回封装好数据的 bean 对象
+     * */
+    public static <T> T readMap(Map<String, Object> dataMap, Class<T> returnType)
+    {
+        Object object = null;
+        try
+        {
+            // create an instance of return type
+            object = returnType.newInstance();
+
+            // take all things out from dataMap and box it in an object
+            Set<String> columns = dataMap.keySet();
+            Object value = null;
+            Method setter = null;
+            for (String column : columns)
+            {
+                value = dataMap.get(column);
+
+                if (value != null)
+                {
+                    setter = returnType.getDeclaredMethod(setter(column), value.getClass());
+                }
+
+                // invoke the setter of object
+                // only your table's column name equals to object's attribute name or setter,
+                // can this method successfully invoke...
+                if (setter != null)
+                {
+                    setter.invoke(object, value);
+                }
+            }
+        }
+        catch (InstantiationException e)
+        {
+            System.out.println("对象实例化失败！有可能是没有无参构造器导致的！");
+        }
+        catch (IllegalAccessException e)
+        {
+            System.out.println("无法访问对象！");
+        }
+        catch (NoSuchMethodException e)
+        {
+            System.out.println("没有相应的 setter 方法！请生成属性的 setter！");
+        }
+        catch (InvocationTargetException e)
+        {
+            System.out.println("方法执行出错！请检查权限！");
+        }
+
+        // return the object, and you don't need to cast it by yourself
+        return (T)object;
     }
 }
