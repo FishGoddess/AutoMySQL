@@ -7,39 +7,9 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="bf96c04e-a2f0-4234-a5be-40ecf7fcdb2d" name="Default" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" afterPath="$PROJECT_DIR$/.idea/misc.xml" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change beforePath="$PROJECT_DIR$/javadoc/allclasses-frame.html" afterPath="$PROJECT_DIR$/javadoc/allclasses-frame.html" />
-      <change beforePath="$PROJECT_DIR$/javadoc/allclasses-noframe.html" afterPath="$PROJECT_DIR$/javadoc/allclasses-noframe.html" />
-      <change beforePath="$PROJECT_DIR$/javadoc/annotations/Column.html" afterPath="$PROJECT_DIR$/javadoc/annotations/Column.html" />
-      <change beforePath="$PROJECT_DIR$/javadoc/annotations/Table.html" afterPath="$PROJECT_DIR$/javadoc/annotations/Table.html" />
-      <change beforePath="$PROJECT_DIR$/javadoc/annotations/package-frame.html" afterPath="$PROJECT_DIR$/javadoc/annotations/package-frame.html" />
-      <change beforePath="$PROJECT_DIR$/javadoc/annotations/package-summary.html" afterPath="$PROJECT_DIR$/javadoc/annotations/package-summary.html" />
-      <change beforePath="$PROJECT_DIR$/javadoc/annotations/package-tree.html" afterPath="$PROJECT_DIR$/javadoc/annotations/package-tree.html" />
-      <change beforePath="$PROJECT_DIR$/javadoc/constant-values.html" afterPath="$PROJECT_DIR$/javadoc/constant-values.html" />
-      <change beforePath="$PROJECT_DIR$/javadoc/core/MySQL.html" afterPath="$PROJECT_DIR$/javadoc/core/MySQL.html" />
-      <change beforePath="$PROJECT_DIR$/javadoc/core/package-frame.html" afterPath="$PROJECT_DIR$/javadoc/core/package-frame.html" />
-      <change beforePath="$PROJECT_DIR$/javadoc/core/package-summary.html" afterPath="$PROJECT_DIR$/javadoc/core/package-summary.html" />
-      <change beforePath="$PROJECT_DIR$/javadoc/core/package-tree.html" afterPath="$PROJECT_DIR$/javadoc/core/package-tree.html" />
-      <change beforePath="$PROJECT_DIR$/javadoc/deprecated-list.html" afterPath="$PROJECT_DIR$/javadoc/deprecated-list.html" />
-      <change beforePath="$PROJECT_DIR$/javadoc/help-doc.html" afterPath="$PROJECT_DIR$/javadoc/help-doc.html" />
-      <change beforePath="$PROJECT_DIR$/javadoc/index-files/index-1.html" afterPath="$PROJECT_DIR$/javadoc/index-files/index-1.html" />
-      <change beforePath="$PROJECT_DIR$/javadoc/index-files/index-2.html" afterPath="$PROJECT_DIR$/javadoc/index-files/index-2.html" />
-      <change beforePath="$PROJECT_DIR$/javadoc/index-files/index-3.html" afterPath="$PROJECT_DIR$/javadoc/index-files/index-3.html" />
-      <change beforePath="$PROJECT_DIR$/javadoc/index-files/index-4.html" afterPath="$PROJECT_DIR$/javadoc/index-files/index-4.html" />
-      <change beforePath="$PROJECT_DIR$/javadoc/index-files/index-5.html" afterPath="$PROJECT_DIR$/javadoc/index-files/index-5.html" />
-      <change beforePath="$PROJECT_DIR$/javadoc/index-files/index-6.html" afterPath="$PROJECT_DIR$/javadoc/index-files/index-6.html" />
-      <change beforePath="$PROJECT_DIR$/javadoc/index-files/index-7.html" afterPath="$PROJECT_DIR$/javadoc/index-files/index-7.html" />
-      <change beforePath="$PROJECT_DIR$/javadoc/index-files/index-8.html" afterPath="$PROJECT_DIR$/javadoc/index-files/index-8.html" />
-      <change beforePath="$PROJECT_DIR$/javadoc/index.html" afterPath="$PROJECT_DIR$/javadoc/index.html" />
-      <change beforePath="$PROJECT_DIR$/javadoc/overview-frame.html" afterPath="$PROJECT_DIR$/javadoc/overview-frame.html" />
-      <change beforePath="$PROJECT_DIR$/javadoc/overview-summary.html" afterPath="$PROJECT_DIR$/javadoc/overview-summary.html" />
-      <change beforePath="$PROJECT_DIR$/javadoc/overview-tree.html" afterPath="$PROJECT_DIR$/javadoc/overview-tree.html" />
-      <change beforePath="$PROJECT_DIR$/out/artifacts/AutoMySQL_jar/AutoMySQL.jar" afterPath="$PROJECT_DIR$/out/artifacts/AutoMySQL_jar/AutoMySQL.jar" />
-      <change beforePath="$PROJECT_DIR$/out/production/AutoMySQL/core/MySQL.class" afterPath="$PROJECT_DIR$/out/production/AutoMySQL/core/MySQL.class" />
-      <change beforePath="$PROJECT_DIR$/out/production/AutoMySQL/core/Parser.class" afterPath="$PROJECT_DIR$/out/production/AutoMySQL/core/Parser.class" />
-      <change beforePath="$PROJECT_DIR$/src/core/MySQL.java" afterPath="$PROJECT_DIR$/src/core/MySQL.java" />
-      <change beforePath="$PROJECT_DIR$/src/core/Parser.java" afterPath="$PROJECT_DIR$/src/core/Parser.java" />
+      <change beforePath="$PROJECT_DIR$/Book.java" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/TestUtil.java" afterPath="" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -299,16 +269,23 @@
       <workItem from="1520685506119" duration="44000" />
       <workItem from="1520685755350" duration="76000" />
       <workItem from="1520685871071" duration="66000" />
-      <workItem from="1520747572684" duration="168000" />
+      <workItem from="1520747572684" duration="284000" />
     </task>
+    <task id="LOCAL-00001" summary="第二次大更新！">
+      <created>1520747776578</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1520747776578</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="19555000" />
+    <option name="totallyTimeSpent" value="19671000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
-    <editor active="true" />
     <layout>
       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
@@ -319,11 +296,11 @@
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="WINDOWED" visible="false" show_stripe_button="true" weight="0.32946146" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" x="0" y="23" width="1920" height="1017" />
-      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32980973" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Capture Tool" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.14375" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.14375" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
@@ -344,6 +321,10 @@
   </component>
   <component name="VcsContentAnnotationSettings">
     <option name="myLimit" value="2678400000" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="第二次大更新！" />
+    <option name="LAST_COMMIT_MESSAGE" value="第二次大更新！" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
