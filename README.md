@@ -30,13 +30,13 @@
 !!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!! update !!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!<br/>
 
 ### *2018-4-25:*
-1. 如果数据表和 bean 的名字一样，就可以不加 @Column 注解，这在类属性值很多时可以节省大量时间<br/>
+1. 如果数据表和 bean 的名字一样，就可以不加 @Column 注解，这在类属性值很多时可以节省大量时间。<br/>
 (If your table's column name is the same as the bean's name, you could pass the step of write @Column!)<br/>
 
 2. 完善了 MySQL.getBeanByMap 方法，配合上一条改进来进行修正！<br/>
 (update MySQL.getBeanByMap depends on the first update...)<br/>
 
-3. 修复了 MySQL.getBeanByMap 方法的一个问题<br/>
+3. 修复了 MySQL.getBeanByMap 方法的一个问题。<br/>
 (fix a bug caused by MySQL.getBeanByMap)<br/>
 
 ### *2018-3-11:*
