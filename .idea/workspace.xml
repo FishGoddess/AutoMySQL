@@ -35,7 +35,7 @@
       <file leaf-file-name="MySQL.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/core/MySQL.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="189">
+            <state relative-caret-position="3584">
               <caret line="191" column="43" selection-start-line="191" selection-start-column="43" selection-end-line="191" selection-end-column="43" />
               <folding>
                 <element signature="method#querySQL#0;class#MySQL#0" />
@@ -51,8 +51,8 @@
         <entry file="file://$PROJECT_DIR$/README.md">
           <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
             <state split_layout="SPLIT">
-              <first_editor relative-caret-position="384">
-                <caret line="36" column="62" selection-start-line="36" selection-start-column="62" selection-end-line="36" selection-end-column="62" />
+              <first_editor relative-caret-position="480">
+                <caret line="39" column="4" selection-start-line="39" selection-start-column="4" selection-end-line="39" selection-end-column="4" />
               </first_editor>
               <second_editor />
             </state>
@@ -115,7 +115,6 @@
     <panes>
       <pane id="AndroidView" />
       <pane id="PackagesPane" />
-      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -144,6 +143,7 @@
           <select />
         </subPane>
       </pane>
+      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -262,7 +262,8 @@
       <workItem from="1524625521076" duration="1646000" />
       <workItem from="1524667927932" duration="813000" />
       <workItem from="1524668874284" duration="2503000" />
-      <workItem from="1524671405839" duration="291000" />
+      <workItem from="1524671405839" duration="333000" />
+      <workItem from="1524671804814" duration="107000" />
     </task>
     <task id="LOCAL-00001" summary="第二次大更新！">
       <created>1520747776578</created>
@@ -306,11 +307,18 @@
       <option name="project" value="LOCAL" />
       <updated>1524671324986</updated>
     </task>
-    <option name="localTasksCounter" value="7" />
+    <task id="LOCAL-00007" summary="第三次大更新！发布正式版...">
+      <created>1524671714819</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1524671714819</updated>
+    </task>
+    <option name="localTasksCounter" value="8" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="25215000" />
+    <option name="totallyTimeSpent" value="25364000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -348,11 +356,11 @@
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="4" weight="0.4" />
+      <window_info anchor="bottom" id="Messages" order="5" />
       <window_info anchor="right" id="Commander" order="0" weight="0.4" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Cvs" order="3" weight="0.25" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info anchor="bottom" id="Messages" order="5" />
     </layout>
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -378,6 +386,39 @@
     <option name="FILTER_TARGETS" value="false" />
   </component>
   <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/src/core/Parser.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1568">
+          <caret line="57" column="4" selection-start-line="57" selection-start-column="4" selection-end-line="57" selection-end-column="4" />
+          <folding>
+            <element signature="method#readAnnotation#0;class#Parser#0" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/core/MySQL.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="3584">
+          <caret line="191" column="43" selection-start-line="191" selection-start-column="43" selection-end-line="191" selection-end-column="43" />
+          <folding>
+            <element signature="method#querySQL#0;class#MySQL#0" />
+            <element signature="method#updateSQL#0;class#MySQL#0" />
+            <element signature="method#deleteSQL#0;class#MySQL#0" />
+            <element signature="method#insertSQL#0;class#MySQL#0" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/README.md">
+      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+        <state split_layout="SPLIT">
+          <first_editor relative-caret-position="1152">
+            <caret line="36" column="62" selection-start-line="36" selection-start-column="62" selection-end-line="36" selection-end-column="62" />
+          </first_editor>
+          <second_editor />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/core/Parser.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="1568">
@@ -615,7 +656,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/core/MySQL.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="189">
+        <state relative-caret-position="3584">
           <caret line="191" column="43" selection-start-line="191" selection-start-column="43" selection-end-line="191" selection-end-column="43" />
           <folding>
             <element signature="method#querySQL#0;class#MySQL#0" />
@@ -643,8 +684,8 @@
     <entry file="file://$PROJECT_DIR$/README.md">
       <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
         <state split_layout="SPLIT">
-          <first_editor relative-caret-position="384">
-            <caret line="36" column="62" selection-start-line="36" selection-start-column="62" selection-end-line="36" selection-end-column="62" />
+          <first_editor relative-caret-position="480">
+            <caret line="39" column="4" selection-start-line="39" selection-start-column="4" selection-end-line="39" selection-end-column="4" />
           </first_editor>
           <second_editor />
         </state>

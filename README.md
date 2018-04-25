@@ -36,6 +36,9 @@
 2. 完善了 MySQL.getBeanByMap 方法，配合上一条改进来进行修正！<br/>
 (update MySQL.getBeanByMap depends on the first update...)<br/>
 
+3. 修复了 MySQL.getBeanByMap 方法的一个问题<br/>
+(fix a bug caused by MySQL.getBeanByMap)<br/>
+
 ### *2018-3-11:*
 新增了一个 ORM 方法，可以从 Map 对象中自动读取 key 和 value 来组装成一个对象，这个方法最主要是配合 EasyMySQL 小框架使用。上面有演示！<br/>
 
