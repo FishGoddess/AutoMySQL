@@ -1,7 +1,9 @@
 package core;
 
 import java.lang.reflect.InvocationTargetException;
+import java.lang.reflect.Method;
 import java.util.Map;
+import java.util.Set;
 
 /**
  * 生成数据库语句的主要类
@@ -12,6 +14,9 @@ import java.util.Map;
  * */
 public final class MySQL
 {
+    // key 值为列名，value 值为实体类的 getter
+    private static Map<String, String> beanInfo = null;
+
     // nobody gonna to instanse this class, you only can use the methods it let you use
     private MySQL()
     {}
@@ -21,7 +26,13 @@ public final class MySQL
     {
         try
         {
-            return Parser.readAnnotation(object);
+            TableInfo info = Parser.readAnnotation(object);
+            if (info != null)
+            {
+                beanInfo = info.getBeanInfo();
+            }
+
+            return info;
         }
         catch (NoSuchMethodException e)
         {
@@ -193,6 +204,66 @@ public final class MySQL
      */
     public static <T> T getBeanByMap(Map<String, Object> dataMap, Class<T> beanType)
     {
-        return Parser.readMap(dataMap, beanType);
+        Object object = null;
+        try
+        {
+            // create an instance of return type
+            object = beanType.newInstance();
+
+            // init beanInfo
+            getTableInfo(object);
+
+            // take all things out from dataMap and box it in an object
+            Set<String> columns = dataMap.keySet();
+            Object value = null;
+            Method setter = null;
+            for (String column : columns)
+            {
+                value = dataMap.get(column);
+
+                if (value != null)
+                {
+                    setter = beanType.getDeclaredMethod(beanInfo.get(column), value.getClass());
+                }
+
+                // invoke the setter of object
+                // only your table's column name equals to object's attribute name or setter,
+                // can this method successfully invoke...
+                if (setter != null)
+                {
+                    setter.invoke(object, value);
+                }
+            }
+        }
+        catch (InstantiationException e)
+        {
+            System.out.println("对象实例化失败！有可能是没有无参构造器导致的！");
+        }
+        catch (IllegalAccessException e)
+        {
+            System.out.println("无法访问对象！");
+        }
+        catch (NoSuchMethodException e)
+        {
+            System.out.println("没有相应的 setter 方法！请生成属性的 setter！");
+        }
+        catch (InvocationTargetException e)
+        {
+            System.out.println("方法执行出错！请检查权限！");
+        }
+
+        // return the object, and you don't need to cast it by yourself
+        return (T) object;
+        //return Parser.readMap(dataMap, beanType);
     }
+
+    /**
+     * 得到列名和 bean 类的 getter 对应的关系
+     *
+     * @return 返回列名和 bean 类的 getter 对应的关系
+     * */
+    /*public static Map<String, String> getBeanInfo()
+    {
+        return beanInfo;
+    }*/
 }

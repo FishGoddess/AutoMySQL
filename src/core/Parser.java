@@ -7,6 +7,7 @@ import annotations.Table;
 import java.lang.reflect.Field;
 import java.lang.reflect.InvocationTargetException;
 import java.lang.reflect.Method;
+import java.util.HashMap;
 import java.util.Map;
 import java.util.Set;
 
@@ -53,7 +54,7 @@ final class Parser
      *         for example, a table has two columns named "name" and "price",
      *         then you will get '1 = 1 and name = "xxx" and price = 10'
      * */
-    public static TableInfo readAnnotation(Object object) throws NoSuchMethodException, InvocationTargetException, IllegalAccessException
+    static TableInfo readAnnotation(Object object) throws NoSuchMethodException, InvocationTargetException, IllegalAccessException
     {
         Class clazz = object.getClass(); // get class object
 
@@ -66,20 +67,32 @@ final class Parser
             // check each field
             Field[] fields = clazz.getDeclaredFields();
             StringBuilder sb = new StringBuilder("1 = 1");
+            Map<String, String> beanInfo = new HashMap<>();
             for (Field f : fields)
             {
                 // invoke getter of this field, and check if it is  not null
                 Method get = clazz.getDeclaredMethod(getter(f.getName()));
                 Object value = get.invoke(object);
 
+                // get the value of field: column name
+                String columnName = null;
+
+                // the column name will be the same as field name...
+                if (f.getAnnotation(Column.class) == null)
+                {
+                    columnName = f.getName();
+                }
+                else // column name is given...
+                {
+                    columnName = ((Column) f.getAnnotation(Column.class)).value();
+                }
+                beanInfo.put(columnName, setter(f.getName()));
+
                 if (value != null)
                 {
                     // check if this field has any annotations named "Column"
-                    if (f.isAnnotationPresent(Column.class))
+                    //if (f.isAnnotationPresent(Column.class))
                     {
-                        // get the value of field: column name
-                        String columnName = ((Column)f.getAnnotation(Column.class)).value();
-
                         if (value instanceof String)
                         {
                             value = "\'" + value + "\'";
@@ -90,7 +103,7 @@ final class Parser
                 }
             }
 
-            return new TableInfo(tableName, sb.toString());
+            return new TableInfo(tableName, sb.toString(), beanInfo);
         }
 
         return null;
@@ -109,7 +122,7 @@ final class Parser
      *
      * @return 返回封装好数据的 bean 对象
      * */
-    public static <T> T readMap(Map<String, Object> dataMap, Class<T> returnType)
+    static <T> T readMap(Map<String, Object> dataMap, Class<T> returnType)
     {
         Object object = null;
         try
