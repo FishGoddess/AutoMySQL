@@ -189,6 +189,7 @@ public final class MySQL
      * 从 dataMap 中读取数据，并封装为指定对象返回
      * read dataMap and return an instance of this data
      *
+     * @param <T> 对象类型，返回值依靠给定的 class 类型来决定
      * @param dataMap 要被读取的 Map，包含表列名和数据，它会根据 key 值来调用相应的 setter 方法
      *                it contains column and data, and invoke data's setter using key
      * @param beanType 返回类型，如果是 Book 类对象，就传入 Book.class，
@@ -254,16 +255,5 @@ public final class MySQL
 
         // return the object, and you don't need to cast it by yourself
         return (T) object;
-        //return Parser.readMap(dataMap, beanType);
     }
-
-    /**
-     * 得到列名和 bean 类的 getter 对应的关系
-     *
-     * @return 返回列名和 bean 类的 getter 对应的关系
-     * */
-    /*public static Map<String, String> getBeanInfo()
-    {
-        return beanInfo;
-    }*/
 }
