@@ -2,6 +2,8 @@ package core;
 
 import java.lang.reflect.InvocationTargetException;
 import java.lang.reflect.Method;
+import java.util.ArrayList;
+import java.util.List;
 import java.util.Map;
 import java.util.Set;
 
@@ -255,5 +257,37 @@ public final class MySQL
 
         // return the object, and you don't need to cast it by yourself
         return (T) object;
+    }
+
+    /**
+     * 从 dataMaps 中读取数据，并封装为指定对象返回
+     * 这其实是遍历地去执行 getBeanByMap 方法，从而得到一个 bean 列表
+     * read dataMap and return an instance of this data
+     * this method actually invoke getBeanByMap to get so many beans
+     *
+     * @param <T>      对象类型，返回值依靠给定的 class 类型来决定
+     * @param dataMaps  要被读取的 Map 列表，包含多个 Map 对象，每个都是表列名和数据，它会根据 key 值来调用相应的 setter 方法
+     *                 it contains many maps and everyone contains column and data, and invoke data's setter using key
+     * @param beanType 返回类型，如果是 Book 类对象，就传入 Book.class，
+     *                 因此，你不需要进行类型转换，内部已经转换好了。
+     *                 另外，由于内部会调用该类的无参构造器来初始化一个对象，会调用相应属性的 set 方法，
+     *                 所以这个 beanType 必须符合 javabean 标准，即拥有无参构造器和 setter 。
+     *                 return your data object, if it is Book class, then give it Book.class,
+     *                 therefore, you don't need to cast it.
+     *                 Also, this bean returned is created by none-argument constructor, and sets value by setter,
+     *                 you should give a class like javabean.
+     * @return 返回封装好数据的 bean 对象
+     */
+    public static <T> List<T> getBeansByMaps(List<Map<String, Object>> dataMaps, Class<T> beanType)
+    {
+        List<T> beans = new ArrayList<>(dataMaps.size());
+
+        // get beans by loop...
+        for (Map<String, Object> data : dataMaps)
+        {
+            beans.add(getBeanByMap(data, beanType));
+        }
+
+        return beans;
     }
 }

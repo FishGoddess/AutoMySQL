@@ -29,6 +29,10 @@
 
 !!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!! update !!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!<br/>
 
+### *2018-4-26:*
+1. 新增通过 List<Map> 来得到多个 bean 对象的方法，这样就可以一次读取多个 Map了。<br/>
+(add a new method which can get beans by one time...)<br/>
+
 ### *2018-4-25:*
 1. 如果数据表和 bean 的名字一样，就可以不加 @Column 注解，这在类属性值很多时可以节省大量时间。<br/>
 (If your table's column name is the same as the bean's name, you could pass the step of write @Column!)<br/>
@@ -37,7 +41,7 @@
 (update MySQL.getBeanByMap depends on the first update...)<br/>
 
 3. 修复了 MySQL.getBeanByMap 方法的一个问题。<br/>
-(fix a bug caused by MySQL.getBeanByMap)<br/>
+(fix a bug caused by MySQL.getBeanByMap...)<br/>
 
 ### *2018-3-11:*
 新增了一个 ORM 方法，可以从 Map 对象中自动读取 key 和 value 来组装成一个对象，这个方法最主要是配合 EasyMySQL 小框架使用。上面有演示！<br/>
