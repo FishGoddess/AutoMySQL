@@ -6,8 +6,8 @@ import java.lang.annotation.RetentionPolicy;
 import java.lang.annotation.Target;
 
 /**
- * 这表示数据库中的一张表，这是注解，添加到实体类上
- * This class points to a table in mySql
+ * 这表示数据库中的一张表，这是注解，添加到实体类上<br>
+ * This class points to a table in mySql<br>
  *
  * @author Fish
  * 2018-2-16

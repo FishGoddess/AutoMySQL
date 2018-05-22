@@ -29,6 +29,12 @@
 
 !!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!! update !!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!<br/>
 
+### *2018-5-22:*
+1. 新增了一个 String insertSQLs(Object[] objects) 方法，现在可以生成批量插入的语句了<br/>
+(add a new method: String insertSQLs(Object[] objects), now you can generate a insert sql for batch!)<br/>
+2. 大量优化了 javadoc，以前的 doc 挤在一起，丑的跟啥一样。。。现在排版比较整齐了。<br/>
+(rewrite javadoc, now they are cuter :) ... )<br/>
+
 ### *2018-4-26:*
 1. 新增通过 List<Map> 来得到多个 bean 对象的方法，这样就可以一次读取多个 Map了。<br/>
 (add a new method which can get beans by one time...)<br/>

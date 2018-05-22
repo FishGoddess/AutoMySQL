@@ -1,24 +1,22 @@
-*******************************************************************************************************
+ï»¿*******************************************************************************************************
 * MySQL code automatical generator v1.0
-* author£ºË®²»ÒªÓã(FishGoddess)
-* development cycle£ºabout 3 hours
-* development date£º2018.2.16
-* version£º1.0
-* why£ºUse reflect and annotation, it connects class and database table.
-* bugs feedback£ºAs you know, I finished it by myself, and I certainly do some tests.
+* authorï¼šæ°´ä¸è¦é±¼(FishGoddess)
+* development cycleï¼šabout 3 hours
+* development dateï¼š2018.2.16
+* versionï¼š1.0
+* whyï¼šUse reflect and annotation, it connects class and database table.
+* bugs feedbackï¼šAs you know, I finished it by myself, and I certainly do some tests.
 *                But I can't make more cases to test it in just 4 hours.
 *                So, if you come across some bugs, don't be hesitated!
 *                give me a feedback or fixed it yourself!
-* E-mail£º1149062639@qq.com
+* E-mailï¼š1149062639@qq.com
 *
 *******************************************************************************************************
-using steps£º
+using stepsï¼š
 1. add @Table on class declaration, the value is table name
 2. add @Column on field, the value is one column of table
 3. add getter and setter(a javabean class)
 4. do something
 
 **********************************************************************************************************
-examples£º
-Book.java
-TestUtil.java
+Maybe you need a tool called EasyMySQL!!!

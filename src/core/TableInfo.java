@@ -1,12 +1,10 @@
 package core;
 
-import java.lang.reflect.Method;
-import java.util.HashMap;
 import java.util.Map;
 
 /**
- * 表示一张表中的注解信息，包括表名和表数据条件
- * This class contains table's name and columns
+ * 表示一张表中的注解信息，包括表名和表数据条件<br>
+ * This class contains table's name and columns<br>
  *
  * @author Fish
  * 2018-2-16
