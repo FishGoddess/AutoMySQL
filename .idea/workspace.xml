@@ -6,8 +6,19 @@
     </artifacts-to-build>
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="bf96c04e-a2f0-4234-a5be-40ecf7fcdb2d" name="Default" comment="" />
+    <list default="true" id="bf96c04e-a2f0-4234-a5be-40ecf7fcdb2d" name="Default" comment="">
+      <change afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/META-INF/MANIFEST.MF" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/annotations/Column.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/annotations/Table.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/core/MySQL.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/core/Parser.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/core/TableInfo.java" beforeDir="false" />
+    </list>
     <ignored path="$PROJECT_DIR$/out/" />
+    <ignored path="$PROJECT_DIR$/target/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -21,9 +32,9 @@
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file leaf-file-name="MySQL.java" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/core/MySQL.java">
+        <entry file="file://$PROJECT_DIR$/src/main/java/core/MySQL.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="480">
+            <state relative-caret-position="-861">
               <caret line="202" column="18" selection-start-line="202" selection-start-column="18" selection-end-line="202" selection-end-column="53" />
               <folding>
                 <element signature="method#getTableInfo#0;class#MySQL#0" />
@@ -31,10 +42,18 @@
                 <element signature="method#updateSQL#0;class#MySQL#0" />
                 <element signature="method#deleteSQL#0;class#MySQL#0" />
                 <element signature="method#insertSQL#0;class#MySQL#0" />
-                <element signature="method#insertSQLs#0;class#MySQL#0" />
                 <element signature="method#getBeanByMap#0;class#MySQL#0" />
                 <element signature="method#getBeansByMaps#0;class#MySQL#0" />
               </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="pom.xml" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/pom.xml">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="320">
+              <caret line="10" column="4" selection-start-line="10" selection-start-column="4" selection-end-line="10" selection-end-column="4" />
             </state>
           </provider>
         </entry>
@@ -55,6 +74,11 @@
       </list>
     </option>
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+    <option name="RECENT_BRANCH_BY_REPOSITORY">
+      <map>
+        <entry key="$PROJECT_DIR$" value="master" />
+      </map>
+    </option>
   </component>
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
@@ -73,6 +97,7 @@
         <option value="$PROJECT_DIR$/使用说明.txt" />
         <option value="$PROJECT_DIR$/How to use.txt" />
         <option value="$PROJECT_DIR$/README.md" />
+        <option value="$PROJECT_DIR$/pom.xml" />
       </list>
     </option>
   </component>
@@ -81,6 +106,19 @@
   <component name="JsGulpfileManager">
     <detection-done>true</detection-done>
     <sorting>DEFINITION_ORDER</sorting>
+  </component>
+  <component name="MavenImportPreferences">
+    <option name="generalSettings">
+      <MavenGeneralSettings>
+        <option name="mavenHome" value="D:/apache-maven-3.5.3" />
+        <option name="userSettingsFile" value="D:\apache-maven-3.5.3\conf\settings.xml" />
+      </MavenGeneralSettings>
+    </option>
+    <option name="importingSettings">
+      <MavenImportingSettings>
+        <option name="importAutomatically" value="true" />
+      </MavenImportingSettings>
+    </option>
   </component>
   <component name="NodePackageJsonFileManager">
     <packageJsonPaths />
@@ -96,7 +134,6 @@
     </navigator>
     <panes>
       <pane id="Scope" />
-      <pane id="AndroidView" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -113,18 +150,13 @@
               <item name="AutoMySQL" type="b2602c69:ProjectViewProjectNode" />
               <item name="AutoMySQL" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="annotations" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="AutoMySQL" type="b2602c69:ProjectViewProjectNode" />
-              <item name="AutoMySQL" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="core" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
         </subPane>
       </pane>
+      <pane id="AndroidView" />
       <pane id="PackagesPane" />
     </panes>
   </component>
@@ -136,7 +168,7 @@
     <property name="project.structure.last.edited" value="Artifacts" />
     <property name="project.structure.proportion" value="0.0" />
     <property name="project.structure.side.proportion" value="0.2" />
-    <property name="settings.editor.selected.configurable" value="File.Encoding" />
+    <property name="settings.editor.selected.configurable" value="MavenSettings" />
   </component>
   <component name="RunDashboard">
     <option name="ruleStates">
@@ -253,6 +285,8 @@
       <workItem from="1524757090605" duration="84000" />
       <workItem from="1526991502533" duration="3971000" />
       <workItem from="1526995525583" duration="112000" />
+      <workItem from="1526995652476" duration="199000" />
+      <workItem from="1527307828115" duration="378000" />
     </task>
     <task id="LOCAL-00001" summary="第二次大更新！">
       <created>1520747776578</created>
@@ -338,11 +372,18 @@
       <option name="project" value="LOCAL" />
       <updated>1526995617784</updated>
     </task>
-    <option name="localTasksCounter" value="13" />
+    <task id="LOCAL-00013" summary="新增了一个 String insertSQLs(Object[] objects) 方法">
+      <created>1526995680889</created>
+      <option name="number" value="00013" />
+      <option name="presentableId" value="LOCAL-00013" />
+      <option name="project" value="LOCAL" />
+      <updated>1526995680889</updated>
+    </task>
+    <option name="localTasksCounter" value="14" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="31298000" />
+    <option name="totallyTimeSpent" value="31875000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -355,6 +396,7 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
+    <editor active="true" />
     <layout>
       <window_info anchor="right" id="Palette" order="3" />
       <window_info anchor="right" id="TODO" order="12" weight="0.32995737" />
@@ -364,8 +406,8 @@
       <window_info anchor="right" id="Event Log" order="14" side_tool="true" weight="0.3296" />
       <window_info anchor="right" id="Maven Projects" order="6" />
       <window_info anchor="bottom" id="Database Changes" order="6" show_stripe_button="false" />
-      <window_info anchor="right" x="0" y="23" width="1920" height="1017" id="Run" order="13" side_tool="true" type="WINDOWED" weight="0.32946146" />
       <window_info anchor="right" id="Version Control" order="9" weight="0.32942432" />
+      <window_info anchor="right" x="0" y="23" width="1920" height="1017" id="Run" order="13" side_tool="true" type="WINDOWED" weight="0.32946146" />
       <window_info anchor="right" id="Terminal" order="10" show_stripe_button="false" weight="0.32995737" />
       <window_info id="Capture Tool" order="2" />
       <window_info id="Designer" order="3" />
@@ -375,15 +417,15 @@
       <window_info anchor="right" id="Ant Build" order="1" show_stripe_button="false" weight="0.25" />
       <window_info id="UI Designer" order="4" />
       <window_info anchor="right" id="Theme Preview" order="8" />
-      <window_info anchor="bottom" id="Debug" order="2" weight="0.4" />
       <window_info id="Favorites" order="5" show_stripe_button="false" side_tool="true" />
+      <window_info anchor="bottom" id="Debug" order="2" weight="0.4" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="4" weight="0.4" />
+      <window_info anchor="bottom" id="Messages" order="5" />
       <window_info anchor="right" id="Commander" order="0" weight="0.4" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Cvs" order="3" weight="0.25" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info anchor="bottom" id="Messages" order="5" />
     </layout>
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -411,7 +453,23 @@
     <option name="FILTER_TARGETS" value="false" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/core/MySQL.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/core/MySQL.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="6464">
+          <caret line="202" column="18" selection-start-line="202" selection-start-column="18" selection-end-line="202" selection-end-column="53" />
+          <folding>
+            <element signature="method#getTableInfo#0;class#MySQL#0" />
+            <element signature="method#querySQL#0;class#MySQL#0" />
+            <element signature="method#updateSQL#0;class#MySQL#0" />
+            <element signature="method#deleteSQL#0;class#MySQL#0" />
+            <element signature="method#insertSQL#0;class#MySQL#0" />
+            <element signature="method#getBeanByMap#0;class#MySQL#0" />
+            <element signature="method#getBeansByMaps#0;class#MySQL#0" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/core/MySQL.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="2976">
           <caret line="202" column="18" selection-start-line="202" selection-start-column="18" selection-end-line="202" selection-end-column="53" />
@@ -421,14 +479,29 @@
             <element signature="method#updateSQL#0;class#MySQL#0" />
             <element signature="method#deleteSQL#0;class#MySQL#0" />
             <element signature="method#insertSQL#0;class#MySQL#0" />
-            <element signature="method#insertSQLs#0;class#MySQL#0" />
             <element signature="method#getBeanByMap#0;class#MySQL#0" />
             <element signature="method#getBeansByMaps#0;class#MySQL#0" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/core/MySQL.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/core/MySQL.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="2976">
+          <caret line="202" column="18" selection-start-line="202" selection-start-column="18" selection-end-line="202" selection-end-column="53" />
+          <folding>
+            <element signature="method#getTableInfo#0;class#MySQL#0" />
+            <element signature="method#querySQL#0;class#MySQL#0" />
+            <element signature="method#updateSQL#0;class#MySQL#0" />
+            <element signature="method#deleteSQL#0;class#MySQL#0" />
+            <element signature="method#insertSQL#0;class#MySQL#0" />
+            <element signature="method#getBeanByMap#0;class#MySQL#0" />
+            <element signature="method#getBeansByMaps#0;class#MySQL#0" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/core/MySQL.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="3456">
           <caret line="268" column="86" selection-start-line="268" selection-start-column="86" selection-end-line="268" selection-end-column="86" />
@@ -438,14 +511,13 @@
             <element signature="method#updateSQL#0;class#MySQL#0" />
             <element signature="method#deleteSQL#0;class#MySQL#0" />
             <element signature="method#insertSQL#0;class#MySQL#0" />
-            <element signature="method#insertSQLs#0;class#MySQL#0" />
             <element signature="method#getBeanByMap#0;class#MySQL#0" />
             <element signature="method#getBeansByMaps#0;class#MySQL#0" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/core/MySQL.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/core/MySQL.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="3456">
           <caret line="268" column="86" selection-start-line="268" selection-start-column="86" selection-end-line="268" selection-end-column="86" />
@@ -455,14 +527,13 @@
             <element signature="method#updateSQL#0;class#MySQL#0" />
             <element signature="method#deleteSQL#0;class#MySQL#0" />
             <element signature="method#insertSQL#0;class#MySQL#0" />
-            <element signature="method#insertSQLs#0;class#MySQL#0" />
             <element signature="method#getBeanByMap#0;class#MySQL#0" />
             <element signature="method#getBeansByMaps#0;class#MySQL#0" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/core/MySQL.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/core/MySQL.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="3456">
           <caret line="268" column="86" selection-start-line="268" selection-start-column="86" selection-end-line="268" selection-end-column="86" />
@@ -472,14 +543,13 @@
             <element signature="method#updateSQL#0;class#MySQL#0" />
             <element signature="method#deleteSQL#0;class#MySQL#0" />
             <element signature="method#insertSQL#0;class#MySQL#0" />
-            <element signature="method#insertSQLs#0;class#MySQL#0" />
             <element signature="method#getBeanByMap#0;class#MySQL#0" />
             <element signature="method#getBeansByMaps#0;class#MySQL#0" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/core/MySQL.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/core/MySQL.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="3456">
           <caret line="268" column="86" selection-start-line="268" selection-start-column="86" selection-end-line="268" selection-end-column="86" />
@@ -489,21 +559,20 @@
             <element signature="method#updateSQL#0;class#MySQL#0" />
             <element signature="method#deleteSQL#0;class#MySQL#0" />
             <element signature="method#insertSQL#0;class#MySQL#0" />
-            <element signature="method#insertSQLs#0;class#MySQL#0" />
             <element signature="method#getBeanByMap#0;class#MySQL#0" />
             <element signature="method#getBeansByMaps#0;class#MySQL#0" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/core/Parser.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/core/Parser.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="1568">
           <caret line="57" column="4" selection-start-line="57" selection-start-column="4" selection-end-line="57" selection-end-column="4" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/core/MySQL.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/core/MySQL.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="3584">
           <caret line="191" column="43" selection-start-line="191" selection-start-column="43" selection-end-line="191" selection-end-column="43" />
@@ -513,21 +582,20 @@
             <element signature="method#updateSQL#0;class#MySQL#0" />
             <element signature="method#deleteSQL#0;class#MySQL#0" />
             <element signature="method#insertSQL#0;class#MySQL#0" />
-            <element signature="method#insertSQLs#0;class#MySQL#0" />
             <element signature="method#getBeanByMap#0;class#MySQL#0" />
             <element signature="method#getBeansByMaps#0;class#MySQL#0" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/core/Parser.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/core/Parser.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="1568">
           <caret line="57" column="4" selection-start-line="57" selection-start-column="4" selection-end-line="57" selection-end-column="4" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/core/MySQL.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/core/MySQL.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="3584">
           <caret line="191" column="43" selection-start-line="191" selection-start-column="43" selection-end-line="191" selection-end-column="43" />
@@ -537,7 +605,6 @@
             <element signature="method#updateSQL#0;class#MySQL#0" />
             <element signature="method#deleteSQL#0;class#MySQL#0" />
             <element signature="method#insertSQL#0;class#MySQL#0" />
-            <element signature="method#insertSQLs#0;class#MySQL#0" />
             <element signature="method#getBeanByMap#0;class#MySQL#0" />
             <element signature="method#getBeansByMaps#0;class#MySQL#0" />
           </folding>
@@ -554,14 +621,14 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/core/Parser.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/core/Parser.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="1568">
           <caret line="57" column="4" selection-start-line="57" selection-start-column="4" selection-end-line="57" selection-end-column="4" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/core/MySQL.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/core/MySQL.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="3584">
           <caret line="191" column="43" selection-start-line="191" selection-start-column="43" selection-end-line="191" selection-end-column="43" />
@@ -571,7 +638,6 @@
             <element signature="method#updateSQL#0;class#MySQL#0" />
             <element signature="method#deleteSQL#0;class#MySQL#0" />
             <element signature="method#insertSQL#0;class#MySQL#0" />
-            <element signature="method#insertSQLs#0;class#MySQL#0" />
             <element signature="method#getBeanByMap#0;class#MySQL#0" />
             <element signature="method#getBeansByMaps#0;class#MySQL#0" />
           </folding>
@@ -588,21 +654,21 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/core/Parser.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/core/Parser.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="1568">
           <caret line="57" column="4" selection-start-line="57" selection-start-column="4" selection-end-line="57" selection-end-column="4" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/core/TableInfo.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/core/TableInfo.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="1408">
           <caret line="56" column="16" selection-start-line="56" selection-start-column="16" selection-end-line="56" selection-end-column="16" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/core/MySQL.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/core/MySQL.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="3584">
           <caret line="191" column="43" selection-start-line="191" selection-start-column="43" selection-end-line="191" selection-end-column="43" />
@@ -612,21 +678,20 @@
             <element signature="method#updateSQL#0;class#MySQL#0" />
             <element signature="method#deleteSQL#0;class#MySQL#0" />
             <element signature="method#insertSQL#0;class#MySQL#0" />
-            <element signature="method#insertSQLs#0;class#MySQL#0" />
             <element signature="method#getBeanByMap#0;class#MySQL#0" />
             <element signature="method#getBeansByMaps#0;class#MySQL#0" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/core/Parser.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/core/Parser.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="3392">
           <caret line="114" column="4" selection-start-line="114" selection-start-column="4" selection-end-line="114" selection-end-column="4" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/core/MySQL.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/core/MySQL.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="672">
           <caret line="23" column="41" selection-start-line="23" selection-start-column="29" selection-end-line="23" selection-end-column="41" />
@@ -636,14 +701,13 @@
             <element signature="method#updateSQL#0;class#MySQL#0" />
             <element signature="method#deleteSQL#0;class#MySQL#0" />
             <element signature="method#insertSQL#0;class#MySQL#0" />
-            <element signature="method#insertSQLs#0;class#MySQL#0" />
             <element signature="method#getBeanByMap#0;class#MySQL#0" />
             <element signature="method#getBeansByMaps#0;class#MySQL#0" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/core/TableInfo.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/core/TableInfo.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="1280">
           <caret line="52" column="5" selection-start-line="52" selection-start-column="5" selection-end-line="52" selection-end-column="5" />
@@ -652,21 +716,21 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/test/Book.java" />
     <entry file="file://$PROJECT_DIR$/src/test/Test.java" />
-    <entry file="file://$PROJECT_DIR$/src/core/Parser.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/core/Parser.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="2784">
           <caret line="95" column="67" selection-start-line="95" selection-start-column="67" selection-end-line="95" selection-end-column="67" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/core/TableInfo.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/core/TableInfo.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="1216">
           <caret line="52" column="5" selection-start-line="52" selection-start-column="5" selection-end-line="52" selection-end-column="5" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/core/MySQL.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/core/MySQL.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="4256">
           <caret line="211" column="8" selection-start-line="211" selection-start-column="8" selection-end-line="211" selection-end-column="8" />
@@ -676,14 +740,13 @@
             <element signature="method#updateSQL#0;class#MySQL#0" />
             <element signature="method#deleteSQL#0;class#MySQL#0" />
             <element signature="method#insertSQL#0;class#MySQL#0" />
-            <element signature="method#insertSQLs#0;class#MySQL#0" />
             <element signature="method#getBeanByMap#0;class#MySQL#0" />
             <element signature="method#getBeansByMaps#0;class#MySQL#0" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/core/MySQL.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/core/MySQL.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="756">
           <caret line="51" column="82" selection-start-line="51" selection-start-column="82" selection-end-line="51" selection-end-column="82" />
@@ -693,14 +756,13 @@
             <element signature="method#updateSQL#0;class#MySQL#0" />
             <element signature="method#deleteSQL#0;class#MySQL#0" />
             <element signature="method#insertSQL#0;class#MySQL#0" />
-            <element signature="method#insertSQLs#0;class#MySQL#0" />
             <element signature="method#getBeanByMap#0;class#MySQL#0" />
             <element signature="method#getBeansByMaps#0;class#MySQL#0" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/core/MySQL.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/core/MySQL.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="756">
           <caret line="51" column="82" selection-start-line="51" selection-start-column="82" selection-end-line="51" selection-end-column="82" />
@@ -710,14 +772,13 @@
             <element signature="method#updateSQL#0;class#MySQL#0" />
             <element signature="method#deleteSQL#0;class#MySQL#0" />
             <element signature="method#insertSQL#0;class#MySQL#0" />
-            <element signature="method#insertSQLs#0;class#MySQL#0" />
             <element signature="method#getBeanByMap#0;class#MySQL#0" />
             <element signature="method#getBeansByMaps#0;class#MySQL#0" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/core/MySQL.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/core/MySQL.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="756">
           <caret line="51" column="82" selection-start-line="51" selection-start-column="82" selection-end-line="51" selection-end-column="82" />
@@ -727,14 +788,13 @@
             <element signature="method#updateSQL#0;class#MySQL#0" />
             <element signature="method#deleteSQL#0;class#MySQL#0" />
             <element signature="method#insertSQL#0;class#MySQL#0" />
-            <element signature="method#insertSQLs#0;class#MySQL#0" />
             <element signature="method#getBeanByMap#0;class#MySQL#0" />
             <element signature="method#getBeansByMaps#0;class#MySQL#0" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/core/MySQL.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/core/MySQL.java">
       <provider selected="true" editor-type-id="text-editor">
         <state>
           <folding>
@@ -743,7 +803,6 @@
             <element signature="method#updateSQL#0;class#MySQL#0" />
             <element signature="method#deleteSQL#0;class#MySQL#0" />
             <element signature="method#insertSQL#0;class#MySQL#0" />
-            <element signature="method#insertSQLs#0;class#MySQL#0" />
             <element signature="method#getBeanByMap#0;class#MySQL#0" />
             <element signature="method#getBeansByMaps#0;class#MySQL#0" />
           </folding>
@@ -761,28 +820,28 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/test/Book.java" />
     <entry file="file://$PROJECT_DIR$/src/test/Test.java" />
-    <entry file="file://$PROJECT_DIR$/src/annotations/Table.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/annotations/Table.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="192">
           <caret line="9" column="44" selection-start-line="9" selection-start-column="44" selection-end-line="9" selection-end-column="44" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/annotations/Column.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/annotations/Column.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="192">
           <caret line="9" column="34" selection-start-line="9" selection-start-column="34" selection-end-line="9" selection-end-column="34" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/core/Parser.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/core/Parser.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="3648">
           <caret line="122" column="48" selection-start-line="122" selection-start-column="48" selection-end-line="122" selection-end-column="48" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/core/TableInfo.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/core/TableInfo.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="192">
           <caret line="6" column="51" selection-start-line="6" selection-start-column="51" selection-end-line="6" selection-end-column="51" />
@@ -806,16 +865,23 @@
     <entry file="file://$PROJECT_DIR$/README.md">
       <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
         <state split_layout="SPLIT">
-          <first_editor relative-caret-position="448">
-            <caret line="32" column="47" lean-forward="true" selection-start-line="32" selection-start-column="3" selection-end-line="32" selection-end-column="47" />
+          <first_editor relative-caret-position="544">
+            <caret line="35" column="50" lean-forward="true" selection-start-line="31" selection-end-line="35" selection-end-column="50" />
           </first_editor>
           <second_editor />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/core/MySQL.java">
+    <entry file="file://$PROJECT_DIR$/pom.xml">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="480">
+        <state relative-caret-position="320">
+          <caret line="10" column="4" selection-start-line="10" selection-start-column="4" selection-end-line="10" selection-end-column="4" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/core/MySQL.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-861">
           <caret line="202" column="18" selection-start-line="202" selection-start-column="18" selection-end-line="202" selection-end-column="53" />
           <folding>
             <element signature="method#getTableInfo#0;class#MySQL#0" />
@@ -823,7 +889,6 @@
             <element signature="method#updateSQL#0;class#MySQL#0" />
             <element signature="method#deleteSQL#0;class#MySQL#0" />
             <element signature="method#insertSQL#0;class#MySQL#0" />
-            <element signature="method#insertSQLs#0;class#MySQL#0" />
             <element signature="method#getBeanByMap#0;class#MySQL#0" />
             <element signature="method#getBeansByMaps#0;class#MySQL#0" />
           </folding>
