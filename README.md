@@ -2,8 +2,9 @@
 ## MySql增删改查语句自动生成器 v1.0（MySQL code automatical generator v1.0）
 --------------------------------------------------------------------------
 
-### 下面演示了结合 easyMySQL 小框架的查询操作：
-#### if you use AutoMySQL and this jar:
+### 下面演示了结合 EasyMySQL 小框架的查询操作：
+#### if you use EasyMySQL and this jar:
+#### EasyMySQL 请点击：[EasyMySQL](https://github.com/FishGoddess/EasyMySQL)
     // get information from file
     DBManager.update(new File("testFile/config/DB.properties"));
 

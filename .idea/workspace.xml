@@ -7,15 +7,8 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="bf96c04e-a2f0-4234-a5be-40ecf7fcdb2d" name="Default" comment="">
-      <change afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/META-INF/MANIFEST.MF" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/annotations/Column.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/annotations/Table.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/core/MySQL.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/core/Parser.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/core/TableInfo.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
@@ -31,11 +24,11 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="MySQL.java" pinned="false" current-in-tab="true">
+      <file leaf-file-name="MySQL.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/core/MySQL.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-861">
-              <caret line="202" column="18" selection-start-line="202" selection-start-column="18" selection-end-line="202" selection-end-column="53" />
+            <state relative-caret-position="3168">
+              <caret line="208" column="39" selection-start-line="208" selection-start-column="39" selection-end-line="208" selection-end-column="39" />
               <folding>
                 <element signature="method#getTableInfo#0;class#MySQL#0" />
                 <element signature="method#querySQL#0;class#MySQL#0" />
@@ -54,6 +47,18 @@
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="320">
               <caret line="10" column="4" selection-start-line="10" selection-start-column="4" selection-end-line="10" selection-end-column="4" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="README.md" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/README.md">
+          <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+            <state split_layout="SPLIT">
+              <first_editor relative-caret-position="192">
+                <caret line="6" column="71" selection-start-line="6" selection-start-column="71" selection-end-line="6" selection-end-column="71" />
+              </first_editor>
+              <second_editor />
             </state>
           </provider>
         </entry>
@@ -96,8 +101,8 @@
         <option value="$PROJECT_DIR$/src/annotations/Column.java" />
         <option value="$PROJECT_DIR$/使用说明.txt" />
         <option value="$PROJECT_DIR$/How to use.txt" />
-        <option value="$PROJECT_DIR$/README.md" />
         <option value="$PROJECT_DIR$/pom.xml" />
+        <option value="$PROJECT_DIR$/README.md" />
       </list>
     </option>
   </component>
@@ -120,6 +125,28 @@
       </MavenImportingSettings>
     </option>
   </component>
+  <component name="MavenProjectNavigator">
+    <treeState>
+      <expand>
+        <path>
+          <item name="" type="16c1761:MavenProjectsStructure$RootNode" />
+          <item name="AutoMySQL" type="9519ce18:MavenProjectsStructure$ProjectNode" />
+        </path>
+        <path>
+          <item name="" type="16c1761:MavenProjectsStructure$RootNode" />
+          <item name="AutoMySQL" type="9519ce18:MavenProjectsStructure$ProjectNode" />
+          <item name="Plugins" type="7aea1407:MavenProjectsStructure$PluginsNode" />
+        </path>
+        <path>
+          <item name="" type="16c1761:MavenProjectsStructure$RootNode" />
+          <item name="AutoMySQL" type="9519ce18:MavenProjectsStructure$ProjectNode" />
+          <item name="Plugins" type="7aea1407:MavenProjectsStructure$PluginsNode" />
+          <item name="install" type="36feed69:MavenProjectsStructure$PluginNode" />
+        </path>
+      </expand>
+      <select />
+    </treeState>
+  </component>
   <component name="NodePackageJsonFileManager">
     <packageJsonPaths />
   </component>
@@ -134,6 +161,8 @@
     </navigator>
     <panes>
       <pane id="Scope" />
+      <pane id="AndroidView" />
+      <pane id="PackagesPane" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -156,8 +185,6 @@
           <select />
         </subPane>
       </pane>
-      <pane id="AndroidView" />
-      <pane id="PackagesPane" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -286,7 +313,10 @@
       <workItem from="1526991502533" duration="3971000" />
       <workItem from="1526995525583" duration="112000" />
       <workItem from="1526995652476" duration="199000" />
-      <workItem from="1527307828115" duration="378000" />
+      <workItem from="1527307828115" duration="726000" />
+      <workItem from="1527310811997" duration="27000" />
+      <workItem from="1527313347308" duration="9000" />
+      <workItem from="1527314202676" duration="242000" />
     </task>
     <task id="LOCAL-00001" summary="第二次大更新！">
       <created>1520747776578</created>
@@ -379,11 +409,18 @@
       <option name="project" value="LOCAL" />
       <updated>1526995680889</updated>
     </task>
-    <option name="localTasksCounter" value="14" />
+    <task id="LOCAL-00014" summary="项目转为 maven 项目！！">
+      <created>1527308457654</created>
+      <option name="number" value="00014" />
+      <option name="presentableId" value="LOCAL-00014" />
+      <option name="project" value="LOCAL" />
+      <updated>1527308457655</updated>
+    </task>
+    <option name="localTasksCounter" value="15" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="31875000" />
+    <option name="totallyTimeSpent" value="32501000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -404,10 +441,10 @@
       <window_info id="Image Layers" order="1" />
       <window_info anchor="right" id="Capture Analysis" order="5" />
       <window_info anchor="right" id="Event Log" order="14" side_tool="true" weight="0.3296" />
-      <window_info anchor="right" id="Maven Projects" order="6" />
+      <window_info anchor="right" id="Maven Projects" order="6" weight="0.3296" />
       <window_info anchor="bottom" id="Database Changes" order="6" show_stripe_button="false" />
-      <window_info anchor="right" id="Version Control" order="9" weight="0.32942432" />
       <window_info anchor="right" x="0" y="23" width="1920" height="1017" id="Run" order="13" side_tool="true" type="WINDOWED" weight="0.32946146" />
+      <window_info anchor="right" id="Version Control" order="9" weight="0.32942432" />
       <window_info anchor="right" id="Terminal" order="10" show_stripe_button="false" weight="0.32995737" />
       <window_info id="Capture Tool" order="2" />
       <window_info id="Designer" order="3" />
@@ -417,8 +454,8 @@
       <window_info anchor="right" id="Ant Build" order="1" show_stripe_button="false" weight="0.25" />
       <window_info id="UI Designer" order="4" />
       <window_info anchor="right" id="Theme Preview" order="8" />
-      <window_info id="Favorites" order="5" show_stripe_button="false" side_tool="true" />
       <window_info anchor="bottom" id="Debug" order="2" weight="0.4" />
+      <window_info id="Favorites" order="5" show_stripe_button="false" side_tool="true" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="4" weight="0.4" />
       <window_info anchor="bottom" id="Messages" order="5" />
@@ -441,7 +478,8 @@
     <MESSAGE value="第三次大更新！发布正式版..." />
     <MESSAGE value="新增通过 List&lt;Map&gt; 来得到多个 bean 对象的方法，这样就可以一次读取多个 Map了。" />
     <MESSAGE value="新增了一个 String insertSQLs(Object[] objects) 方法" />
-    <option name="LAST_COMMIT_MESSAGE" value="新增了一个 String insertSQLs(Object[] objects) 方法" />
+    <MESSAGE value="项目转为 maven 项目！！" />
+    <option name="LAST_COMMIT_MESSAGE" value="项目转为 maven 项目！！" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -453,6 +491,61 @@
     <option name="FILTER_TARGETS" value="false" />
   </component>
   <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/src/main/java/core/MySQL.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="3168">
+          <caret line="208" column="39" selection-start-line="208" selection-start-column="39" selection-end-line="208" selection-end-column="39" />
+          <folding>
+            <element signature="method#getTableInfo#0;class#MySQL#0" />
+            <element signature="method#querySQL#0;class#MySQL#0" />
+            <element signature="method#updateSQL#0;class#MySQL#0" />
+            <element signature="method#deleteSQL#0;class#MySQL#0" />
+            <element signature="method#insertSQL#0;class#MySQL#0" />
+            <element signature="method#getBeanByMap#0;class#MySQL#0" />
+            <element signature="method#getBeansByMaps#0;class#MySQL#0" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="320">
+          <caret line="10" column="4" selection-start-line="10" selection-start-column="4" selection-end-line="10" selection-end-column="4" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/core/MySQL.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="3168">
+          <caret line="208" column="39" selection-start-line="208" selection-start-column="39" selection-end-line="208" selection-end-column="39" />
+          <folding>
+            <element signature="method#getTableInfo#0;class#MySQL#0" />
+            <element signature="method#querySQL#0;class#MySQL#0" />
+            <element signature="method#updateSQL#0;class#MySQL#0" />
+            <element signature="method#deleteSQL#0;class#MySQL#0" />
+            <element signature="method#insertSQL#0;class#MySQL#0" />
+            <element signature="method#getBeanByMap#0;class#MySQL#0" />
+            <element signature="method#getBeansByMaps#0;class#MySQL#0" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/core/MySQL.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="3168">
+          <caret line="208" column="39" selection-start-line="208" selection-start-column="39" selection-end-line="208" selection-end-column="39" />
+          <folding>
+            <element signature="method#getTableInfo#0;class#MySQL#0" />
+            <element signature="method#querySQL#0;class#MySQL#0" />
+            <element signature="method#updateSQL#0;class#MySQL#0" />
+            <element signature="method#deleteSQL#0;class#MySQL#0" />
+            <element signature="method#insertSQL#0;class#MySQL#0" />
+            <element signature="method#getBeanByMap#0;class#MySQL#0" />
+            <element signature="method#getBeansByMaps#0;class#MySQL#0" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/core/MySQL.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="6464">
@@ -862,13 +955,19 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/README.md">
-      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
-        <state split_layout="SPLIT">
-          <first_editor relative-caret-position="544">
-            <caret line="35" column="50" lean-forward="true" selection-start-line="31" selection-end-line="35" selection-end-column="50" />
-          </first_editor>
-          <second_editor />
+    <entry file="file://$PROJECT_DIR$/src/main/java/core/MySQL.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="3168">
+          <caret line="208" column="39" selection-start-line="208" selection-start-column="39" selection-end-line="208" selection-end-column="39" />
+          <folding>
+            <element signature="method#getTableInfo#0;class#MySQL#0" />
+            <element signature="method#querySQL#0;class#MySQL#0" />
+            <element signature="method#updateSQL#0;class#MySQL#0" />
+            <element signature="method#deleteSQL#0;class#MySQL#0" />
+            <element signature="method#insertSQL#0;class#MySQL#0" />
+            <element signature="method#getBeanByMap#0;class#MySQL#0" />
+            <element signature="method#getBeansByMaps#0;class#MySQL#0" />
+          </folding>
         </state>
       </provider>
     </entry>
@@ -879,19 +978,13 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/core/MySQL.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-861">
-          <caret line="202" column="18" selection-start-line="202" selection-start-column="18" selection-end-line="202" selection-end-column="53" />
-          <folding>
-            <element signature="method#getTableInfo#0;class#MySQL#0" />
-            <element signature="method#querySQL#0;class#MySQL#0" />
-            <element signature="method#updateSQL#0;class#MySQL#0" />
-            <element signature="method#deleteSQL#0;class#MySQL#0" />
-            <element signature="method#insertSQL#0;class#MySQL#0" />
-            <element signature="method#getBeanByMap#0;class#MySQL#0" />
-            <element signature="method#getBeansByMaps#0;class#MySQL#0" />
-          </folding>
+    <entry file="file://$PROJECT_DIR$/README.md">
+      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+        <state split_layout="SPLIT">
+          <first_editor relative-caret-position="192">
+            <caret line="6" column="71" selection-start-line="6" selection-start-column="71" selection-end-line="6" selection-end-column="71" />
+          </first_editor>
+          <second_editor />
         </state>
       </provider>
     </entry>
