@@ -8,7 +8,6 @@
   <component name="ChangeListManager">
     <list default="true" id="bf96c04e-a2f0-4234-a5be-40ecf7fcdb2d" name="Default" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
@@ -316,7 +315,7 @@
       <workItem from="1527307828115" duration="726000" />
       <workItem from="1527310811997" duration="27000" />
       <workItem from="1527313347308" duration="9000" />
-      <workItem from="1527314202676" duration="242000" />
+      <workItem from="1527314202676" duration="267000" />
     </task>
     <task id="LOCAL-00001" summary="第二次大更新！">
       <created>1520747776578</created>
@@ -416,11 +415,18 @@
       <option name="project" value="LOCAL" />
       <updated>1527308457655</updated>
     </task>
-    <option name="localTasksCounter" value="15" />
+    <task id="LOCAL-00015" summary="项目转为 maven 项目！！">
+      <created>1527314455332</created>
+      <option name="number" value="00015" />
+      <option name="presentableId" value="LOCAL-00015" />
+      <option name="project" value="LOCAL" />
+      <updated>1527314455332</updated>
+    </task>
+    <option name="localTasksCounter" value="16" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="32501000" />
+    <option name="totallyTimeSpent" value="32526000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
