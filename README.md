@@ -1,5 +1,6 @@
 # AutoMySQL
 ## MySql增删改查语句自动生成器 v1.0（MySQL code automatical generator v1.0）
+[gitee 仓库地址](https://gitee.com/FishGoddess/AutoMySQL)
 --------------------------------------------------------------------------
 
 ### 下面演示了结合 EasyMySQL 小框架的查询操作：
